@@ -1,11 +1,20 @@
-img {
-    width: 24.5%;
-    min-width: 200px;
-    border-radius: 25px;
+div{
+    background-color: gray;
+    background-image: url('https://koshek.ru/images/big-images/1_soderzhanie/obshie-voprosy/interesnye-fakty-o-koshkah/interesnye-fakty-o-koshkah.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 15px;
+    float: left;
     opacity: 0.5;
 }
 
-img:hover{
-    opacity: 1;
+div:hover{
+    background-size: auto 150%;
     cursor: pointer;
+    opacity: 1;
 }
+
