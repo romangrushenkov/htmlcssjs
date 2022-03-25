@@ -1,0 +1,11 @@
+img {
+    width: 24.5%;
+    min-width: 200px;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
