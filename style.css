@@ -1,23 +1,16 @@
 div{
     background-color: gray;
-    background-image: url('https://koshek.ru/images/big-images/1_soderzhanie/obshie-voprosy/interesnye-fakty-o-koshkah/interesnye-fakty-o-koshkah.jpg');
+    background-image: url('https://i.pinimg.com/originals/c4/ea/b4/c4eab4aef31cf79b812dcbb14b55ac3d.gif');
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: 100%;
     
     width: 350px;
     height: 250px;
     border-radius: 15px;
     margin: 15px;
     float: left;
-    opacity: 0.5;
 
     transition: 2s;
-}
-
-div:hover{
-    background-size: auto 150%;
-    cursor: pointer;
-    opacity: 1;
 }
 
 div p.discription {
@@ -30,4 +23,12 @@ div:hover p.discription {
 
 div:hover p.title {
     display: none;
+}
+
+img {
+    width: 400px;
+}
+
+.carousel {
+    margin: 20px;
 }

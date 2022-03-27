@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div>
+
+    <button onclick="randImage()">Случайная картинка</button>
+
+    <div id="div" onclick="randImage()">
+        <img id="img" src="https://static.tildacdn.com/tild3432-6563-4239-a463-363835666363/no_photo.png" />
+    </div>
+
+
+<!--
+    <div id="first" onclick="hello()">
         <p class="title">Корм для кошек</p>
         <p class="description">Полноценная еда для вашего домашнего питомца</p>
     </div>
@@ -27,5 +38,6 @@
     <div></div>
     <div></div>
     <div></div>
+-->
 </body>
 </html>
