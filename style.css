@@ -10,6 +10,8 @@ div{
     margin: 15px;
     float: left;
     opacity: 0.5;
+
+    transition: 2s;
 }
 
 div:hover{
@@ -18,3 +20,14 @@ div:hover{
     opacity: 1;
 }
 
+div p.discription {
+    display: none;
+}
+
+div:hover p.discription {
+    display: block;
+}
+
+div:hover p.title {
+    display: none;
+}
